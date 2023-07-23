@@ -1,3 +1,5 @@
-public class Pig {
-    
+public class Pig extends Animal {
+    public void sound() {
+        System.out.println("oink");
+    }
 }
